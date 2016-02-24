@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="mx.pitalla.g6.MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:background="#ffffff"
+            android:paddingBottom="3dp"
+            android:minHeight="600dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                tools:text="FESTIVAL DE LA CALACA 2015"
+                android:id="@+id/txtTituloEventoDetalle"
+                android:textSize="24dp"
+                android:textColor="#132357"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="12° edición del Festival de la Calaca 2015 en el que se celebra el día de muertos.  Presentación de artistas Exposiciones pictóricas Cine Teatro Presentación de Hologramas ."
+                android:id="@+id/txtDescEventoDetalle"
+                android:textColor="#444246"
+                android:textAlignment="textStart"
+                android:paddingStart="10dp"
+                android:paddingTop="5dp"
+                android:textSize="22dp"
+                android:background="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:singleLine="false"
+                android:paddingRight="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ORGANIZA"
+                android:id="@+id/textView30"
+                android:layout_weight="2.5"
+                android:gravity="center"
+                android:textColor="#5b2c7c"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                tools:text="INSTITUTO MUNICIPAL DE CULTURA Y ARTE DE GUAYMAS"
+                android:id="@+id/txtOrganizaEventoDetalle"
+                android:textSize="15dp"
+                android:textColor="#444246"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="LUGAR"
+                android:id="@+id/textView29"
+                android:gravity="center"
+                android:textColor="#5b2c7c"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_weight="0.30"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    tools:text="CASA DE LA CULTURA, PLAZA 13 DE JULIO Y PLAZA DE LA PISTOLA"
+                    android:id="@+id/txtLugarEventoDetalle"
+                    android:textSize="15dp"
+                    android:textColor="#444246"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:paddingLeft="3dp"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="72dp"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="FECHA"
+                    android:id="@+id/textView32"
+                    android:gravity="center"
+                    android:textColor="#5b2c7c"
+                    android:textStyle="bold"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="126dp"
+                    android:layout_height="41dp"
+                    tools:text="2016-02-04"
+                    android:id="@+id/txtFechaEventoDetalle"
+                    android:textSize="18dp"
+                    android:textColor="#444246"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:paddingLeft="3dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="HORA"
+                    android:id="@+id/textView35"
+                    android:gravity="center"
+                    android:textColor="#5b2c7c"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    tools:text="5:00 PM"
+                    android:id="@+id/txtHoraEventoDetalle"
+                    android:textSize="18dp"
+                    android:textColor="#444246"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:paddingLeft="3dp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="CONTACTO"
+                    android:id="@+id/textView27"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="#5b2c7c"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                tools:text="Casa de la Cultura (622) 222 9602  Adán Agúndez ( 622) 1200757"
+                android:id="@+id/txtContactoEventoDetalle"
+                android:textSize="18dp"
+                android:textColor="#444246"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imgEventoDetalle"
+                android:src="@drawable/calaca"
+                android:scaleType="fitCenter"
+                android:paddingTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:paddingBottom="3dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Direccion de Informatica"
+                android:id="@+id/nombreDependencia"
+                android:textSize="22dp"
+                android:textColor="#132357"
+                android:layout_margin="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tel: 622 126 21 03"
+                android:id="@+id/telDependencia"
+                android:textSize="18dp"
+                android:textColor="#00bbac"
+                android:textStyle="bold"
+                android:padding="3dp"
+                android:paddingLeft="3dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Calle 23 av. Serdan num 511 Colonia Centro"
+                android:id="@+id/lugarDependencia"
+                android:textSize="15dp"
+                android:textColor="#a241ed"
+                android:paddingLeft="3dp"
+                android:layout_marginLeft="3dp" />
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imgBtnLlamar"
+            android:layout_weight="3"
+            android:src="@drawable/llamar"
+            android:background="#00000000" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/lineas" />
+
+</LinearLayout>

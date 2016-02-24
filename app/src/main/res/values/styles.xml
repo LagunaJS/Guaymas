@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground"> @drawable/fondo </item>
+    </style>
+
+    <style name="action_bar_theme" parent="@style/AppTheme">
+        <item name="android:background">#b3000000</item>
+        <item name="android:titleTextStyle">@string/app_name</item>
+    </style>
+
+    <style name="btnmorado">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/btn_morado</item>
+        <item name="android:textSize">25dp</item>
+    </style>
+
+
+    <style name="campo">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/campo_blanco</item>
+        <item name="android:textSize">25dp</item>
+
+    </style>
+
+
+
+
+</resources>
